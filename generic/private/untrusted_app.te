@@ -41,3 +41,6 @@ hal_client_domain(untrusted_app, vendor_hal_dspmanager)
 
 # allow 3-pty process access to snapx aidl
 hal_client_domain(untrusted_app, vendor_hal_snapx_service_qti)
+
+# allow app to be a client of AKS Gamepad HAL
+hal_client_domain(untrusted_app, hal_gamepad)
